@@ -8,6 +8,7 @@ The increasing use of surveillance cameras to mitigate anomalous events has nece
 
 The model developed for suspicious activity detection employs ConvLSTM and LRCN to classify frames into 14 subclasses, distinguishing normal events from thirteen other anomalous activities. This classification process aids in identifying suspicious events accurately, contributing to a reliable detection system. The training utilized the publicly available DCSASS dataset and testing on a locally created dataset from Pakistan to ensure effectiveness in the regional context.
 
+![User Journey Diagram](https://github.com/SYED-M-HUSSAIN/Vision-Pipeline-Research-Project/blob/main/Pipeline.png)
 ## Results
 
 The results demonstrate that our method achieves higher accuracy in both summarization quality and anomalous event detection compared to traditional methods. By reducing manual efforts and enhancing event detection capabilities, our approach plays a vital role in proactive prevention and swift response to security threats, ultimately creating safer environments for society.
@@ -15,3 +16,13 @@ The results demonstrate that our method achieves higher accuracy in both summari
 ## Conclusion
 
 This research presents an automated video summarization approach using advanced deep learning models for effective suspicious event detection. The integration of ConvLSTM, LRCN, and the OpenCV library showcases improved accuracy and reliability in identifying anomalous activities. The application of this method not only reduces manual efforts in surveillance but also contributes to creating safer environments by enabling proactive threat prevention and rapid response to security incidents.
+
+## Citation
+```
+@inproceedings{IEEE Xplore,
+title={Automated Video Summarization for Suspicious Event Detection in Surveillance Systems: A Pipeline Approach},
+author={S.M.Hussain, Azeem Haider, Affan Habib, and Dr. M.Farhan.},
+booktitle={20th International Bhurban Conference on Applied Sciences and Technology (IBCAST) },
+year={2023}
+}
+```
